@@ -1,12 +1,7 @@
-import React from 'react';
-import Navbar from "./components/Navbar";
-
-const About = () =>{
+export default function About() {
   return (
-    <div>	
-      <Navbar />
-      <h3>ABOUT</h3>
+    <div>
+      <h1>About</h1>
     </div>
   );
 }
-export default About;

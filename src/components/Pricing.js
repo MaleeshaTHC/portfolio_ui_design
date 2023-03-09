@@ -1,9 +1,7 @@
-import React from 'react';
-const Pricing = () =>{
+export default function Pricing() {
   return (
     <div>
-      <h3>Pricing</h3>
+      <h1>Pricing</h1>
     </div>
   );
 }
-export default Pricing;

@@ -1,9 +1,7 @@
-import React from 'react';
-const Buynfts = () =>{
+export default function Buynfts() {
   return (
     <div>
-      <h3>Buynfts</h3>
+      <h1>BuyNFTS</h1>
     </div>
   );
 }
-export default Buynfts;
