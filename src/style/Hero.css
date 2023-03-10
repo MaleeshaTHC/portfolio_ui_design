@@ -1,0 +1,25 @@
+  .button_button1{
+    margin: 10px;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+  }
+  .button_button2{
+    margin: 10px;
+    border-radius: 12px;
+    width: 100px;
+    
+    height: 30px;
+  }
+  
+  img #myImg{
+    width:100%;
+    max-width:300px;
+  }
+
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  

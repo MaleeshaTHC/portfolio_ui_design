@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/hero" className="brand-name">
-        MacroSoft
+        KRYPTO
       </a>
       <button
         className="hamburger"
@@ -15,7 +15,13 @@ export default function Navbar() {
           setIsNavExpanded(!isNavExpanded)
         }}
       >
-        {/* hamburger svg code... */}
+      <svg viewBox='0 0 8 6' width='30'>
+        <path d='M1 1h8M1 4h 8M1 7h8' 
+              stroke='#000' 
+              stroke-height='1'
+              stroke-width='1' 
+              stroke-linecap='none'/>
+      </svg>
       </button>
       <div
         className={

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Pricing from "./components/Pricing";
 import Buynfts from "./components/BuyNFTs";
 import "./style/NavbarStyle.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Contact />
         <Pricing />
         <Buynfts />
+        <Footer />
       </div>
     </div>
   );
